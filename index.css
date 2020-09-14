@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:5px;
+  }
+
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      border-radius: 5px;
+      border-color: lightgrey;
+      border-width: 2px;
+      border-style: solid;
+      align-self: center;
+    }
+
+    #left {
+        border-right: solid 1px lightgrey;
+        padding: 20px;
+    }
+
+  input{
+      text-align: center;
+      height: 20px;
+  }
+
+  #right {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 20px;
+    }
+ 
+#tipf {
+    width: 70%;
+    text-align: right;
+}
+
+#total {
+    width: 70%;
+    text-align: right;
+}
+
+#bill {
+    width: 100%;
+}
+
+#tm, #nm {
+    margin-right: -5px;
+    padding: 2px 5px;
+    height: 20px;
+}
+
+#np, #tp {
+    margin-left: -5px;
+    padding: 2px 4px;
+    height: 20px;
+}
+
+.t {
+    font-weight: bold;
+}
+
+#tipf #total {
+    display: inline-block;
+    text-align: left;
+} 
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <main>
+        <div id="left">
+           <p>Bill</p>
+           <input id="bill" type="text" name="bill" value="0.00">
+           <p>Tip %</p>
+           <button id="tm" type="button" name="subtip">-</button>
+           <input id="tip" type="text" name="tip" value="15%">
+           <button id="tp" type="button" name="addtip">+</button>
+           <p>Number of people</p>
+           <button id="nm" type="button" name="sub">-</button>
+           <input id="number" type="text" name="number" value="1">
+           <button id="np" type="button" name="add">+</button>
+        </div>
+        <div id="right">    
+            <div>
+               <p>Tip per person</p>
+            </div>  
+            <div id="tipf">$0.00</div>
+            <div class="t">
+               <p>Total per person</p>
+           </div>  
+           <div id="total" class="t">%0.00</div>
+        </div>
+    </main>
+<script src="index.js"></script>
+</body>
+</html>

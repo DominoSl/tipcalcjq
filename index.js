@@ -28,7 +28,7 @@ $('#nm').click(() => {
     result();
 })
 
-$('#np').click((event) => {
+$('#np').click(() => {
     $('#number').val(parseInt($('#number').val(), 10) + 1);
     result();
 })

@@ -1,4 +1,4 @@
-
+$(function(){
 // calculation:
 function result() {
     let bill = parseInt($('#bill').val(), 10);
@@ -48,3 +48,4 @@ $('#number').change( ()=>{
     result();       
 })
 
+})
